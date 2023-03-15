@@ -1,0 +1,103 @@
+.call {
+    height: 806px;
+    background: $background-color;
+    padding-top: 61px;
+
+    &_wrapper {
+        display: block;
+        margin: 0 auto;
+        width: 625px;
+        height: 700px;
+        background: rgba(255, 255, 255, 1);
+        border-radius: 22px;
+
+        hr {
+            margin-top: 10px;
+            width: 324px;
+        }
+    }
+
+    &_header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &_title {
+        margin-top: 33px;
+        height: 58px;
+        width: 524px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        letter-spacing: 0.27em;
+        color: #19344F;
+    }
+
+    &_form {
+        margin-left: 83px;
+        width: 376px;
+    }
+
+    &_input {
+        display: flex;
+        flex-direction: column-reverse;
+
+        input {
+            background: rgba(231, 231, 231, 1);
+            border: none;
+            width: 376px;
+            border-radius: 22px;
+            height: 48px;
+            padding-left: 29px;
+            padding-right: 29px;
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 15px;
+            color: #000000;
+        }
+
+        label {
+            margin-top: 49px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: 0.27em;
+            color: #000000;
+        }
+    }
+
+    &_textarea {
+        display: flex;
+        flex-direction: column-reverse;
+
+        textarea {
+            background: rgba(231, 231, 231, 1);
+            border: none;
+            width: 376px;
+            border-radius: 22px;
+            height: 130px;
+            padding: 16px 29px;
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 15px;
+            color: #000000;
+        }
+
+        label {
+            margin-top: 49px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: 0.27em;
+            color: #000000;
+        }
+    }
+
+    &_triggers {
+        display: flex;
+        justify-content: center;
+        margin-top: 49px;
+    }
+}
