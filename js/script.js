@@ -11,8 +11,8 @@ $(document).ready(function () {
             centerMode: false,
             centerPadding: '15px',
             slidesToShow: 4,
-            // autoplay: true,
-            // autoplaySpeed: 1500,
+            autoplay: true,
+            autoplaySpeed: 1500,
             arrows: false,
             responsive: [
                 {
