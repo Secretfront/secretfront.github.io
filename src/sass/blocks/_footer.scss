@@ -1,0 +1,18 @@
+footer {
+    padding: 49px 120px;
+    height: 115px;
+    background: rgba(104, 104, 104, 1);
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+
+        &_about {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+    }
+}

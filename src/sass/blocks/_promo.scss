@@ -1,0 +1,62 @@
+.promo {
+    height: 690px;
+    padding-top: 160px;
+    background-color: #FFF7EA;
+
+    &_wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &_title {
+        position: absolute;
+        margin-top: 32px;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 140.4%;
+        color: $main-color;
+    }
+
+    &_btn {
+        margin-top: 316px;
+        position: absolute;
+    }
+
+    &_img {
+        width: 543px;
+        height: 530px;
+        display: flex;
+
+        &_big {
+            width: 460px;
+        }
+
+        &_small {
+            position: absolute;
+            margin-top: 67px;
+            margin-left: 333px;
+            width: 210px;
+            height: 253px;
+        }
+
+        &_info {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 410px;
+            width: 460px;
+            height: 58px;
+            background-color: rgba(217, 217, 217, 0.43);
+        }
+
+        &_price {
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 29px;
+            color: $main-color;
+
+        }
+    }
+}
+
